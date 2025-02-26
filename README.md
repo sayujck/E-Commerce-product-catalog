@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+E-Commerce Web Application
 
-## Getting Started
+This is a full-stack e-commerce web application built using Next.js, React Query, Jotai for state management, and Material UI for the UI components. The project includes features like product listings, product details, category filtering, sorting, cart management, and dark mode toggle.
 
-First, run the development server:
+🛠 Project Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![image](https://github.com/user-attachments/assets/97e6ed11-9d26-42ff-8cfe-872f431be881)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔹 Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Product Listing: Displays a grid of products fetched from an API.
 
-## Learn More
+Product Details Page: Shows product details including title, description, price, and rating.
 
-To learn more about Next.js, take a look at the following resources:
+Cart Management: Users can add, remove, and update product quantities in the cart.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Category Filtering: Filter products by category using a dropdown menu.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Sorting: Sort products by price and rating.
 
-## Deploy on Vercel
+Dark Mode Toggle: Switch between light and dark mode.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Optimistic UI Updates: Instantly updates the UI when modifying the cart.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
