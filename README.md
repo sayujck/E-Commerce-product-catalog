@@ -1,6 +1,6 @@
 E-Commerce Web Application
 
-This is a full-stack e-commerce web application built using Next.js, React Query, Jotai for state management, and Material UI for the UI components. The project includes features like product listings, product details, category filtering, sorting, cart management, and dark mode toggle.
+This is a simple e-commerce web application built using Next.js, React Query, Jotai for state management, and Material UI for the UI components. The project includes features like product listings, product details, category filtering, sorting, cart management, and dark mode toggle.
 
 🛠 Project Structure
 
